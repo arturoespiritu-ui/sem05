@@ -1,3 +1,8 @@
+# indice
+- [titulo](#titulo-importante)
+- [Funciones](#funciones)
+- [tecsup](#tecsup-diagrama)
+- [tablas](#creando-tablas)
 # titulo importante 
 me encuentro aprendiendo *Markdown* en dos clases del profesor
 Luis Pallin
