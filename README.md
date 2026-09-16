@@ -19,3 +19,51 @@ usando ~~markdown~~
 - [x] generar matricula
 - [ ] campo vacio
 - [ ] libre
+
+## creando tablas
+| lenguaje de programacion | Creador |
+| -------------------------| --------|
+| Java | James Cosling |
+| PHP | Rasmus Lerdor |
+| Pyhton | Guido Van Rossun |
+
+## codigo
+```html
+<h1>Hola Mundo</h1>
+```
+
+```css
+body{
+    background: "red";
+}
+```
+
+```java
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Hola Mundo Java");
+    }
+}
+```
+
+```java script
+alert("Bienvenido a mi sitio web");
+```
+
+## mermaid diagramas
+```mermaid
+flowchart TD
+A[Usuario] --> B[Iniciar Sesion]
+B --> C{Credenciales Validas}
+C --> |SI| D[Acceder al Sistema]
+C --> |No| E[Error del Sistema]
+```
+
+## tecsup diagrama
+```mermaid
+flowchart TD
+A[Tecsup] --> B[Breve concepto]
+B --> C[Mecanica]
+B --> D[Informatica]
+B --> E[Diseño]
+B --> F[Dibujo]
